@@ -1,0 +1,72 @@
+@media (min-width: 1400px) {
+
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1120px;
+    }
+}
+
+@media screen and (max-width:991px) {
+    .apps_content h3 {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width:775px) {
+    .banner_sec {
+        min-height: 300px;
+    }
+
+    .section_heading .title {
+        font-size: 32px;
+    }
+
+    .apps_content h3 {
+        font-size: 25px;
+    }
+
+    .about_sec {
+        padding: 50px 0px;
+    }
+
+    .footer_nav ul {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0px 0px;
+    }
+
+}
+
+@media screen and (max-width:575px) {
+    .section_heading .title {
+        font-size: 25px;
+    }
+
+    .about_wrap .content h5 {
+        font-size: 18px;
+    }
+
+    .custom_pages .content {
+        font-size: 14px;
+    }
+
+    .contact_info p {
+        font-size: 18px;
+    }
+
+
+}
+
+@media screen and (max-width:450px) {
+    .header_sec .nav-item .nav-link {
+        font-size: 12px;
+    }
+
+    .navbar-brand img {
+        width: 100px;
+    }
+
+}
